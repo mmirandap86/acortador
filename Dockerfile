@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM tiangolo/uvicorn-gunicorn:python3.11
 WORKDIR /acortador
 COPY ./requirements.txt .
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
