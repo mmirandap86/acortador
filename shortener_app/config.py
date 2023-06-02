@@ -6,7 +6,7 @@ class Settings(BaseSettings):
 
     env_name: str = "Local"
 
-    base_url: str = "http://short.cl"
+    base_url: str = "http://short.graficonorte.cl"
 
     db_url: str = "sqlite:///./shortener.db"
     
