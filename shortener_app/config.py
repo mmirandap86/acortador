@@ -6,7 +6,7 @@ class Settings(BaseSettings):
 
     env_name: str = "Local"
 
-    base_url: str = "http://localhost:8000"
+    base_url: str = "http://me.li"
 
     db_url: str = "sqlite:///./shortener.db"
     
